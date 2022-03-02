@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "Navajo", targets: ["Navajo"]),   
     ],
     targets: [
-        .target(name: "Navajo"),   
+        .target(name: "Navajo", path: "Navajo"),   
     ]
 )
